@@ -31,13 +31,18 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
 				<username>Naresh_679</username>
-				<environment>Sandbox</environment>
+				<environment>SANDBOX</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>sample</applicationName>
 				<password>Chilukuri123</password>
-				<muleVersion>7.11.0</muleVersion>
+		        <region>us-east-1</region>
+				<muleVersion>4.4.0-20211026</muleVersion>	
+				<properties>
+				  <http.port>8081</http.port>
+				</properties>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
