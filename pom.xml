@@ -36,7 +36,7 @@
 				<environment>Design</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>sample</applicationName>
+				<applicationName>mule-reusable-connector_v1</applicationName>
 				<password>Chilukuri123</password>
 		        <region>us-east-1</region>
 				<muleVersion>4.4.0-20211026</muleVersion>	
