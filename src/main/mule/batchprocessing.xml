@@ -122,6 +122,7 @@ output application/java
 	</sub-flow>
 	<sub-flow name="batch-step-2-process-aggr" doc:id="ccf1ab8a-9066-4841-aaa3-a18edaa94f92">
 		<logger message="#['Processing Step 2 for id ' ++ payload.id ++ ' with status ' ++ payload.status]" level="INFO" doc:name="Logger"/>
+		<logger level="INFO" doc:name="Logger" doc:id="11c3bba1-e0aa-4d51-807a-3e01d29ccee8" message='"Test"'/>
 	</sub-flow>
 	<sub-flow name="batch-step-3-process-aggr" doc:id="89e99275-26cc-45d3-9940-6466109c8054">
 		<logger message="#['Processing Step 3 for id ' ++ vars.recordId ++ ' with status ' ++ payload.status]" level="INFO" doc:name="Logger"/>
